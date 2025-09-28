@@ -1,0 +1,27 @@
+# MATLAB autosave / backup
+*.asv
+*.m~ 
+*.bak
+
+# Simulink & codegen build outputs
+slprj/
+sccprj/
+sfprj/
+codegen/
+work/
+
+# MATLAB crash logs / local settings
+matlab_crash_dump.*
+*.autosave
+*.mex*
+
+# OS / editors
+.DS_Store
+Thumbs.db
+*.swp
+
+# (Optional) big/temporary data
+*.mat
+*.log
+results/
+test
